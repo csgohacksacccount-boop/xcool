@@ -1,0 +1,41 @@
+# Build directories
+build/
+cmake-build-*/
+dist/
+obj/
+
+# IDE files
+.vscode/
+.idea/
+*.sln
+*.vcxproj*
+.DS_Store
+
+# Output files
+*.so
+*.dylib
+*.dll
+*.exe
+*.a
+*.lib
+*.o
+*.obj
+
+# Logs
+*.log
+xcool.log
+
+# Configuration
+config.json
+config.local.json
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
